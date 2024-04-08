@@ -8,27 +8,16 @@ import matplotlib.pyplot as plt
 
 import os
 
-"""
-This model will serve as a pre-train model for something greater later.
-
-A GPT model. 
-Will be pre-trained on ~40gb text from reddit.
-
-Attention mechanism: Multi head self attention.
-"""
-
-
 # True -- IF YOU WANT TO TRAIN THE MODEL.
 # False -- IF YOU WANT TO GENERATE WITH MODEL.
 TRAIN_MODEL = False
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
-BOOK_DATA_PATH = "V:\\PyTorch_LLM\\gpt_study\\data\\"
-TRAIN_DATA_PATH = "V:\\PyTorch_LLM\\gpt_study\\data\\output_train.txt"
-TEST_DATA_PATH = "V:\\PyTorch_LLM\\gpt_study\\data\\output_test.txt"
-VOCAB_DATA_PATH = "V:\\PyTorch_LLM\\gpt_study\\data\\vocab.txt"
-SAVE_PATH = "V:\\PyTorch_LLM\\gpt_study\\gpt_save_f\\"
+TRAIN_DATA_PATH = "V:\\PATH\\TO\\FILE.TXT\\"
+TEST_DATA_PATH = "V:\\PATH\\TO\\FILE.TXT\\"
+VOCAB_DATA_PATH = "V:\\PATH\\TO\\FILE.TXT\\"
+SAVE_PATH = "V:\\PATH\\TO\\FOLDER\\"
 
 # Model params
 N_EMBD = 384 # How long is the vector per head.

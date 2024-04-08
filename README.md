@@ -5,6 +5,8 @@ NOTE: This project is not currently "finished" and will be updated later. <br>
 There is still a lot to do with hyperparameters, tokenization methods, text generating methods, fine-tuning. <br>
 <br>
 Generates somewhat natural human-like text✅
+<br>
+Unable to post the state-dict for the model because it is too large to upload here. (219MB)
 
 
 # Outputs:
